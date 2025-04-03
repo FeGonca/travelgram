@@ -21,6 +21,10 @@
     --text-sm: 12px/170% var(--font-family);
 }
 
+html {
+  overflow-x: hidden;
+}
+
 body {
     font: var(--text);
     color: var(--text-color-secondary);
@@ -47,3 +51,8 @@ a:hover {
     background-color: var(--surface-color);
 }
 
+@media (width < 80em) {
+    .container {
+        padding: 1rem;
+    }
+}

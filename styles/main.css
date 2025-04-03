@@ -10,3 +10,17 @@ main img {
     height: 286px;
     object-fit: cover;
 }
+
+@media (width < 80em) {
+    main {
+        gap: 1rem;
+    }
+
+    main img {
+        width: 328px;
+        height: 329px;
+        object-fit: cover;
+        margin: auto;
+    }
+    
+}
